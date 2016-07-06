@@ -12,4 +12,8 @@ class Dog
   def age_in_dog_years
     45
   end
+
+  def some_other_method
+    "foo"
+  end
 end
