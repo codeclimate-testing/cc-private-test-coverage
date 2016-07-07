@@ -13,7 +13,12 @@ class Dog
     45
   end
 
+  # TODO: write tests for this
   def some_other_method
     "foo"
+  end
+
+  def some_other_method
+    "fafa"
   end
 end
