@@ -12,4 +12,12 @@ class Dog
   def age_in_dog_years
     47
   end
+
+  def fafa
+    "bar"
+  end
+
+  def gaga
+    "googoo"
+  end
 end
