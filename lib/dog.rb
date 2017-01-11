@@ -10,6 +10,14 @@ class Dog
 
   # This method is NOT currently covered by a test
   def age_in_dog_years
-    47
+    43
+  end
+
+  def fafa
+    "bar"
+  end
+
+  def gaga
+    "googoo"
   end
 end
