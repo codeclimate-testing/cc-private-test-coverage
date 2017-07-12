@@ -13,4 +13,10 @@ class Dog
   def age_in_dog_years
     45
   end
+
+  # This method is also NOT covered in a test
+  def eat(dogfood)
+    self.hungry = false
+    dogfood.destroy
+  end
 end
