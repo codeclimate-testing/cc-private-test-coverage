@@ -17,3 +17,4 @@ test:
     - bundle exec rspec --color --require spec_helper spec --format progress
   post:
     - ./cc-test-reporter after-build
+    - CC_TEST_REPORTER_ID=7960c4b53d71c6d542eb5c6b6367310999daf34d99ca4bd67357b6148f5d7d1c CC_TEST_REPORTER_COVERAGE_ENDPOINT=https://cce-stable.codeclimate.net/api/v1/test_reports ./cc-test-reporter after-build
