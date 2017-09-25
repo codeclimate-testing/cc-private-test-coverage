@@ -13,4 +13,9 @@ class Dog
   def age_in_dog_years
     45
   end
+  
+   # This method is currently covered by a test
+  def untested_name
+    "#{@name}!!!"
+  end
 end
