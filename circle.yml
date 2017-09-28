@@ -1,6 +1,7 @@
 machine:
   environment:
-    CC_TEST_REPORTER_ID: "fbd65700e35e42b17560de171455626e443762b6681ad5b99e548a5be456627a"
+    CC_TEST_REPORTER_ID: "afc23d456786250754688e217f76aa924289dbe9ae0926f351dce17bdf1d8240"
+    CC_TEST_REPORTER_COVERAGE_ENDPOINT: "https://cce-airbnb-unstable.codeclimate.net/api/v1/test_reports"
   pre:
     - echo "export rvm_install_on_use_flag=0" >> /home/ubuntu/.rvmrc
 
