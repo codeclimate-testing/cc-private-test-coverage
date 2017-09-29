@@ -5,7 +5,7 @@ class Dog
 
   # This method is currently covered by a test
   def name
-    "#{@name}!!!"
+    "Cat"
   end
 
   # FIXME: add a condition
