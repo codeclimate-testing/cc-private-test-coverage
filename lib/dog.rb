@@ -13,4 +13,14 @@ class Dog
   def age_in_dog_years
     45
   end
+  
+  # FIXME: add a condition
+  # This method is NOT currently covered by a test
+  def untested_age
+    45
+  end
+
+  def other_name
+    "#{@name}!!!"
+  end
 end
