@@ -13,4 +13,8 @@ class Dog
   def age_in_dog_years
     45
   end
+
+   def uncovered_name
+    "#{@name}!!!"
+  end
 end
