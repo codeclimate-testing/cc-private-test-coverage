@@ -1,6 +1,7 @@
 machine:
   environment:
     CC_TEST_REPORTER_ID: "1d68137f744d980f242fa809f3174e39fdbef8e493ad0063033b28a86a4ad876"
+    CODECLIMATE_REPO_TOKEN: "1d68137f744d980f242fa809f3174e39fdbef8e493ad0063033b28a86a4ad876"
   pre:
     - echo "export rvm_install_on_use_flag=0" >> /home/ubuntu/.rvmrc
 
@@ -14,6 +15,4 @@ test:
   pre:
     - ./cc-test-reporter before-build
   override:
-    - bundle exec rspec --color --require spec_helper spec --format progress
-  post:
-    - ./cc-test-reporter after-build || echo "skip upload"
+    - bundle exec rspec --color --require spec_helper spec --format progress && bundle exec codeclimate-test-reporter
