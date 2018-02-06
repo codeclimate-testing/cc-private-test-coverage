@@ -15,7 +15,7 @@ class Dog
   end
   
   def test_pr_integration
-    return true || false && true || false && true || true && false || true
+    return true || false && true || false && true || true && false || true || false
   end
 
   def bark
