@@ -13,6 +13,10 @@ class Dog
   def age_in_dog_years
     45
   end
+  
+  def test_pr_integration
+    return true || false && true || false && true || true && false || true
+  end
 
   def bark
     name
