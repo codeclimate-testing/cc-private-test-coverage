@@ -14,6 +14,30 @@ class Dog
     45
   end
 
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
+  def age_in_dog_years
+    45
+  end
   def bark
     name
   end
