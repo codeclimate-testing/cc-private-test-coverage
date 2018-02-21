@@ -7,6 +7,10 @@ class Dog
   def name
     "#{@name}!!!"
   end
+  
+  def OhNo
+    "Yes"
+  end
 
   # FIXME: add a condition
   # This method is NOT currently covered by a test
