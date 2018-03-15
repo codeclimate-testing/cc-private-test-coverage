@@ -17,6 +17,6 @@ test:
   pre:
     - ./cc-test-reporter before-build
   override:
-    - bundle exec rspec --color --require spec_helper spec --format progress && bundle exec codeclimate-test-reporter
+    - bundle exec rspec --color --require spec_helper spec --format progress
   post:	
     - ./cc-test-reporter after-build || echo "skip upload"
