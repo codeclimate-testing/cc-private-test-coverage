@@ -1,7 +1,7 @@
 machine:
   environment:
-    CC_TEST_REPORTER_ID: "1d68137f744d980f242fa809f3174e39fdbef8e493ad0063033b28a86a4ad876"
-    CODECLIMATE_REPO_TOKEN: "1d68137f744d980f242fa809f3174e39fdbef8e493ad0063033b28a86a4ad876"
+    CC_TEST_REPORTER_ID: "f4e6e5f201f13a86e8b13768e49821b426ff0fd4eb41b6723b9e772b97404b06"
+    CODECLIMATE_REPO_TOKEN: "f4e6e5f201f13a86e8b13768e49821b426ff0fd4eb41b6723b9e772b97404b06"
   pre:
     - echo "export rvm_install_on_use_flag=0" >> /home/ubuntu/.rvmrc
 
