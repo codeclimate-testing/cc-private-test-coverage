@@ -17,5 +17,5 @@ test:
     - ./cc-test-reporter before-build
   override:
     - bundle exec rspec --color --require spec_helper spec --format progress
-  post:	
+  post:
     - ./cc-test-reporter after-build || echo "skip upload"
