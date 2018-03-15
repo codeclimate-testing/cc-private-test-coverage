@@ -2,6 +2,8 @@ machine:
   environment:
     CC_TEST_REPORTER_ID: "f4e6e5f201f13a86e8b13768e49821b426ff0fd4eb41b6723b9e772b97404b06"
     CODECLIMATE_REPO_TOKEN: "f4e6e5f201f13a86e8b13768e49821b426ff0fd4eb41b6723b9e772b97404b06"
+    CC_TEST_REPORTER_COVERAGE_ENDPOINT: "https://cce-airbnb-unstable-2.codeclimate.net/api/v1/test_reports"
+    
   pre:
     - echo "export rvm_install_on_use_flag=0" >> /home/ubuntu/.rvmrc
 
@@ -16,3 +18,5 @@ test:
     - ./cc-test-reporter before-build
   override:
     - bundle exec rspec --color --require spec_helper spec --format progress && bundle exec codeclimate-test-reporter
+  post:	
+    - ./cc-test-reporter after-build || echo "skip upload"
