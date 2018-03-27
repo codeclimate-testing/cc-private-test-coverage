@@ -1,3 +1,3 @@
 task :default do
-  system "CODECLIMATE_REPO_TOKEN=33e08958a2bdcb8e31ed53b683132932d4fc1d966c1b7e095b49282e7dd530eb bundle exec rspec"
+  system "CODECLIMATE_REPO_TOKEN=45e8b1ed4a709246779ac8a2de3706e948c867a2f71ea80eb7d4d94fca5d8203 bundle exec rspec"
 end
