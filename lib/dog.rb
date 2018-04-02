@@ -9,6 +9,10 @@ class Dog
     "#{@name}!!!"
   end
 
+  def complex
+    return true && false && true && false && true || false && false || true
+  end
+
   # FIXME: add a condition
   # This method is NOT currently covered by a test
   def age_in_dog_years
