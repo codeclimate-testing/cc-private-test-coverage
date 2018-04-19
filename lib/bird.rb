@@ -1,5 +1,5 @@
 class Bird
   def age_in_dog_years
-    40
+    41
   end
 end
