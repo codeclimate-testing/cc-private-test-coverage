@@ -4,7 +4,6 @@ class Dog
     @name = name
   end
   # TODO
-  # TODO
   # This method is currently covered by a test
   def name
     "#{@name}!!!"
