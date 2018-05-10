@@ -17,4 +17,8 @@ class Dog
   def bark
     name
   end
+  
+  def new_method
+    "ok"
+  end
 end
