@@ -19,3 +19,4 @@ RSpec.describe Dog do
     end
   end
 end
+
