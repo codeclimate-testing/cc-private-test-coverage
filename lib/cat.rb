@@ -12,6 +12,7 @@ class Cat
   end
 
   def untested_two
+    # FIXME
     puts "no tests for this method either"
     puts "no tests for this method either"
     puts "no tests for this method either"
