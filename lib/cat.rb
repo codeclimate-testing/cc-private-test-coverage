@@ -3,6 +3,7 @@ class Cat
     @name = name
   end
 
+
   def untested
     puts "no tests for this method yet"
     puts "no tests for this method yet"
