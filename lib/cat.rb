@@ -3,7 +3,7 @@ class Cat
     @name = name
   end
   
-  def test 
+  def test
     puts "aaaa" 
   end 
   
@@ -16,6 +16,7 @@ class Cat
   end
 
   def untested_two
+    puts "no tests for this method either"
     puts "no tests for this method either"
     puts "no tests for this method either"
     puts "no tests for this method either"
