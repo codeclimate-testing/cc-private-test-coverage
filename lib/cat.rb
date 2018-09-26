@@ -25,6 +25,7 @@ class Cat
   end
 
   def problematic
+    
     # FIXME
   end
 end
