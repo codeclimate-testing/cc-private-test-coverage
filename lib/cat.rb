@@ -3,7 +3,7 @@ class Cat
     @name = name
   end
   
-  def test 
+  def test
     puts "aaaa" 
   end 
   
@@ -25,6 +25,7 @@ class Cat
   end
 
   def problematic
+    
     # FIXME
   end
 end
