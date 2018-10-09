@@ -20,15 +20,6 @@ class Cat
     puts "no tests for this method either"
   end
 
-  def untested_three
-    puts "no tests for this method either"
-    puts "no tests for this method either"
-    puts "no tests for this method either"
-    puts "no tests for this method either"
-    puts "no tests for this method either"
-    puts "no tests for this method either"
-  end
-
   def problematic
     # FIXME
   end
