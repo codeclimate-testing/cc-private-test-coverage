@@ -8,6 +8,8 @@ class Cat
     puts "no tests for this method yet"
     puts "no tests for this method yet"
     puts "no tests for this method yet"
+        puts "no tests for this method yet"
+
     puts "no tests for this method yet"
   end
 
