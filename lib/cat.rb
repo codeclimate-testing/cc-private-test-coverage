@@ -28,7 +28,7 @@ class Cat
     puts "no  tests for this method either"
      puts "no  tests for this method either"
     puts "no tests for this method either"
-    puts "no tests for this method either"
+    puts "no tests for this me thod either"
   end
 
   def problematic
