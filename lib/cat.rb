@@ -5,7 +5,7 @@ class Cat
 
   def untested
     puts "no tests for this method yet"
-    puts "no tests for this method yet"
+    puts "no te sts for this method yet"
     puts "no tes ts for this method yet"
     puts "no tests for this method yet"
         puts "no tests for this method yet"
