@@ -17,4 +17,12 @@ class Dog
   def bark
     name
   end
+
+  def say_hi
+    "Bloof Bloof!"
+  end
+
+  def say_goodbye
+    "Blaaf Blaaf!"
+  end
 end
